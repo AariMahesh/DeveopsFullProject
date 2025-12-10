@@ -20,6 +20,6 @@ resource "aws_s3_bucket_versioning" "three" {
 bucket = aws_s3_bucket.one.id
 versioning_configuration {
 status = "Enabled"
-}
+
 }
 }
